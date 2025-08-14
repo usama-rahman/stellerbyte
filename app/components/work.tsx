@@ -1,5 +1,3 @@
-import React from "react";
-import Image from "next/image";
 import BgBlurBlock from "../Styles/bg-blur-block";
 
 const WorkSection = () => {
@@ -36,15 +34,6 @@ const WorkSection = () => {
             <div className="space-y-6">
               {/* Tag */}
               <div className="inline-flex items-center gap-3 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
-                <div className="w-5 h-5 relative">
-                  <img
-                    src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/6848195dfb203ef0a29d14bc_b0c373f625d479147468dc3d6dd3f3fe_Navbar%20Icon%2003.svg"
-                    alt="Work Icon"
-                    className="invert"
-                    width={20}
-                    height={20}
-                  />
-                </div>
                 <span className="text-sm font-medium text-white/80">Work</span>
               </div>
 
@@ -59,10 +48,10 @@ const WorkSection = () => {
                       key={category.id}
                       className={`text-4xl sm:text-5xl lg:text-6xl font-bold text-white ${
                         index === 0
-                          ? "text-blue-400"
+                          ? "text-gray-400"
                           : index === 1
-                          ? "text-purple-400"
-                          : "text-pink-400"
+                          ? "text-gray-400"
+                          : "text-gray-400"
                       }`}
                     >
                       {category.title}
@@ -93,7 +82,7 @@ const WorkSection = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-300">
+                  <h3 className="text-xl font-semibold text-white group-hover:text-gray-200 transition-colors duration-300">
                     {category.title}
                   </h3>
                 </div>

@@ -10,16 +10,7 @@ const ServiceSection = () => {
                 className="service-section-heading-card"
               >
                 <div className="heading-wrapper">
-                  <div className="section-heading-tag">
-                    <div className="icon-wrapper invert">
-                      <img
-                        src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/6848195d8d2149316f36870d_cc2f060de8b0afdda64a35049a662fe2_Navbar%20Icon%2002.svg"
-                        loading="lazy"
-                        alt="Navbar Icon"
-                      />
-                    </div>
-                    <div>Services</div>
-                  </div>
+                  <div className="section-heading-tag">Services</div>
                   <h2>Top expertise Stellerbyte services</h2>
                 </div>
               </div>
