@@ -23,21 +23,21 @@ const Navbar = () => {
             <nav role="navigation" className="nav-menu-wrapper w-nav-menu">
               <ul role="list" className="nav-menu w-list-unstyled">
                 <li className="nav-list-item">
-                  <Link href="/" className="nav-link w-inline-block">
+                  <a href="/" className="nav-link w-inline-block">
                     Home
-                  </Link>
+                  </a>
                 </li>
 
                 <li className="nav-list-item">
-                  <Link href="#services" className="nav-link w-inline-block">
+                  <a href="#services" className="nav-link w-inline-block">
                     Services
-                  </Link>
+                  </a>
                 </li>
 
                 <li className="nav-list-item">
-                  <Link href="#work" className="nav-link w-inline-block">
+                  <a href="#work" className="nav-link w-inline-block">
                     Work
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </nav>

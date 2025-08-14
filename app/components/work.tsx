@@ -7,21 +7,21 @@ const WorkSection = () => {
       title: "Website design",
       image:
         "https://cdn.prod.website-files.com/684cea2c1edb6bd91d60172e/686cb5f8d3c56f63e4dd0063_project-category-01.avif",
-      href: "/project-category/website-design",
+      href: "#",
     },
     {
       id: 2,
       title: "Application Design",
       image:
         "https://cdn.prod.website-files.com/684cea2c1edb6bd91d60172e/686cb60690cda2446cad9049_project-category-02.avif",
-      href: "/project-category/application-design",
+      href: "#",
     },
     {
       id: 3,
       title: "Dashboard Design",
       image:
         "https://cdn.prod.website-files.com/684cea2c1edb6bd91d60172e/686cb6122f1728bde143398d_project-category-03.avif",
-      href: "/project-category/dashboard-design",
+      href: "#",
     },
   ];
 
