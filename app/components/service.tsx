@@ -2,7 +2,7 @@ const ServiceSection = () => {
   return (
     <>
       <section className="service-section" id="services">
-        <div className="w-layout-blockcontainer container-full w-container">
+        <div className="w-layout-blockcontainer container-full w-container overflow-hidden">
           <div className="section-wrapper">
             <div className="w-layout-grid service-wrapper-grid">
               <div
@@ -22,21 +22,6 @@ const ServiceSection = () => {
                   </div>
                   <h2>Top expertise Stellerbyte services</h2>
                 </div>
-                {/* <a
-                  data-w-id="1328f8a1-942d-445a-4cf8-bc61d2c05586"
-                  href="/about-us"
-                  className="secondary-button red-hide w-inline-block"
-                >
-                  <div className="button-text">view all</div>
-                  <div className="button-arrow">
-                    <img
-                      src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/68481d2acc3934f31f164c0c_arrow-right.svg"
-                      loading="eager"
-                      alt="Arrow Right"
-                    />
-                  </div>
-                  <div className="button-hover-block"></div>
-                </a> */}
               </div>
               <div
                 id="w-node-e02d1c39-a201-bbce-c69f-16331dedccba-22e27dd9"
@@ -68,17 +53,6 @@ const ServiceSection = () => {
                           </div>
                         </div>
                       </div>
-                      {/* <div className="primary-button">
-                        <div className="button-text">read more</div>
-                        <div className="button-arrow">
-                          <img
-                            src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/68481d2acc3934f31f164c0c_arrow-right.svg"
-                            loading="eager"
-                            alt="Arrow Right"
-                          />
-                        </div>
-                        <div className="button-hover-block"></div>
-                      </div> */}
                     </a>
                   </div>
                   <div role="listitem" className="w-dyn-item">
@@ -106,17 +80,6 @@ const ServiceSection = () => {
                           </div>
                         </div>
                       </div>
-                      {/* <div className="primary-button">
-                        <div className="button-text">read more</div>
-                        <div className="button-arrow">
-                          <img
-                            src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/68481d2acc3934f31f164c0c_arrow-right.svg"
-                            loading="eager"
-                            alt="Arrow Right"
-                          />
-                        </div>
-                        <div className="button-hover-block"></div> */}
-                      {/* </div> */}
                     </a>
                   </div>
                   <div role="listitem" className="w-dyn-item">
@@ -144,44 +107,12 @@ const ServiceSection = () => {
                           </div>
                         </div>
                       </div>
-                      {/* <div className="primary-button">
-                        <div className="button-text">read more</div>
-                        <div className="button-arrow">
-                          <img
-                            src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/68481d2acc3934f31f164c0c_arrow-right.svg"
-                            loading="eager"
-                            alt="Arrow Right"
-                          />
-                        </div>
-                        <div className="button-hover-block"></div>
-                      </div> */}
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <a
-              data-w-id="fe397400-3c8c-2606-0074-7e3705aa10d8"
-              href="/about-us"
-              className="primary-button res-show w-inline-block"
-            >
-              <div className="button-text">view all</div>
-              <div className="button-arrow">
-                <img
-                  src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/68481d2acc3934f31f164c0c_arrow-right.svg"
-                  loading="eager"
-                  alt="Arrow Right"
-                />
-              </div>
-              <div className="button-hover-block"></div>
-            </a>
           </div>
-        </div>
-
-        <div className="bg-blur-block service">
-          <div className="blur-block-02"></div>
-          <div className="blur-block-01"></div>
-          <div className="blur-block-03"></div>
         </div>
       </section>
     </>

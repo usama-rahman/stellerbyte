@@ -29,7 +29,7 @@ const Navbar = () => {
                   alt="Logo Icon"
                 />
               </div>
-              <div className="logo-text-wrapper">
+              <div className="logo-text-wrapper hidden md:block">
                 <div className="logo-text">Stellerbyte</div>
                 <div className="logo-text hide">Stellerbyte</div>
               </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
                   </Link>
                 </li>
 
-                <li className="nav-list-item res-show">
+                {/* <li className="nav-list-item res-show">
                   <a
                     href="/contact-us"
                     className="primary-button w-inline-block"
@@ -90,10 +90,10 @@ const Navbar = () => {
                     </div>
                     <div className="button-hover-block"></div>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
-            <div className="nav-button-wrapper">
+            {/* <div className="nav-button-wrapper">
               <div className="nav-button-block">
                 <a
                   data-w-id="5ba6058c-1fe5-b8d4-9873-e29282f4c0f8"
@@ -114,7 +114,7 @@ const Navbar = () => {
               <div className="menu-button w-nav-button">
                 <div className="w-icon-nav-menu"></div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

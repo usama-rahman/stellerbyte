@@ -72,9 +72,9 @@ const WorkSection = () => {
               </div>
             </div>
           </div>
-
+          <BgBlurBlock />
           {/* Work Categories Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {workCategories.map((category, index) => (
               <a
                 key={category.id}
@@ -100,28 +100,7 @@ const WorkSection = () => {
               </a>
             ))}
           </div>
-
-          {/* Mobile Button */}
-          <div className="lg:hidden flex justify-center">
-            <a
-              href="/about-us"
-              className="group inline-flex items-center gap-3 px-6 py-3   rounded-full border border-white/20 text-white hover:bg-white/20 transition-all duration-300 hover:scale-105"
-            >
-              <span className="font-medium">view all project</span>
-              <div className="w-5 h-5 relative group-hover:translate-x-1 transition-transform duration-300">
-                <img
-                  src="https://cdn.prod.website-files.com/68480b7872cd627b975251ca/68481d2acc3934f31f164c0c_arrow-right.svg"
-                  alt="Arrow Right"
-                  className="invert"
-                  width={20}
-                  height={20}
-                />
-              </div>
-            </a>
-          </div>
         </div>
-
-        <BgBlurBlock />
       </div>
     </section>
   );
