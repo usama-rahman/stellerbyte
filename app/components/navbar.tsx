@@ -15,7 +15,7 @@ const Navbar = () => {
                 />
               </div>
 
-              <div className="logo-text-wrapper hidden md:block">
+              <div className="logo-text-wrapper  md:block">
                 <div className="logo-text">Stellerbyte</div>
               </div>
             </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <nav role="navigation" className="nav-menu-wrapper w-nav-menu">
               <ul role="list" className="nav-menu w-list-unstyled">
                 <li className="nav-list-item">
-                  <a href="/" className="nav-link w-inline-block">
+                  <a href="#hero" className="nav-link w-inline-block">
                     Home
                   </a>
                 </li>

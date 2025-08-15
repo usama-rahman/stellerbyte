@@ -5,10 +5,8 @@ import Navbar from "./navbar";
 
 const HeroSection = () => {
   return (
-    <div>
+    <div id="hero">
       <div className="nav-banner-wrapper">
-        <Navbar />
-
         <section className="banner-section">
           <div className="banner-wrapper">
             <div className="banner-heading-wrapper">
